@@ -9,9 +9,7 @@ svg {
 #background {
   width: calc(100% - 10px);
   height: calc(100% - 10px);
-  fill: white;
-  stroke: rgb(225, 228, 232);
-  stroke-width: 1px;
+  fill: rgb(26, 27, 39);
   rx: 6px;
   ry: 6px;
 }
@@ -27,20 +25,22 @@ h2 {
   line-height: 24px;
   font-size: 16px;
   font-weight: 600;
-  color: rgb(36, 41, 46);
-  fill: rgb(36, 41, 46);
+  color: rgb(112, 164, 252);
+  fill: rgb(112, 164, 252);
 }
 
 ul {
   list-style: none;
   padding-left: 0;
   margin-top: 0;
+  color: rgb(56, 188, 173);
   margin-bottom: 0;
 }
 
 li {
   display: inline-flex;
   font-size: 12px;
+  color: rgb(56, 188, 173);
   margin-right: 2ch;
   align-items: center;
   flex-wrap: nowrap;
@@ -64,7 +64,7 @@ div.ellipsis {
 }
 
 .octicon {
-  fill: rgb(88, 96, 105);
+  fill: rgb(190, 144, 242);
   margin-right: 0.5ch;
   vertical-align: top;
 }
@@ -87,11 +87,11 @@ div.ellipsis {
 .lang {
   font-weight: 600;
   margin-right: 4px;
-  color: rgb(36, 41, 46);
+  color: rgb(190, 144, 242);
 }
 
 .percent {
-  color: rgb(88, 96, 105)
+  color: rgb(56, 188, 173);
 }
 </style>
 <g>
