@@ -51,6 +51,5 @@ jobs:
     - name: Commit to the repo
       run: |
         git add .
-        # "echo" returns true so the build succeeds, even if no changed files
-        git commit -m 'Update generated files' || echo
+        git commit --allow-empty -m 'Update generated files' --author="github-actions[bot] <42103905+github-actions[bot]@users.noreply.github.com>"
         git push
